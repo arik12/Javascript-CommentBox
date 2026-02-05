@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CommentBox - Interactive Comment System</title>
+
+  <link rel="stylesheet" href="css.css" />
+
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <h1>JavaScript</h1>
+    <p class="header-subtitle">Interactive Comment System</p>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Title Section -->
+    <section class="title-section">
+      <h2 class="main-title">💬 Leave a Comment</h2>
+      <p class="subtitle">Share your thoughts and engage with our community</p>
+    </section>
+
+    <!-- Input Section -->
+    <section class="input-section">
+      <!-- Textarea for comment input -->
+      <textarea 
+        id="commentInput" 
+        class="comment-textarea" 
+        placeholder="Write your amazing comment here..."
+        aria-label="Comment input field">
+      </textarea>
+
+      <!-- Submit Button -->
+      <button id="submitComment" class="submit-btn">
+        📤 Add Comment
+      </button>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <h3>✨ Features</h3>
+      <ul>
+        <li>📝 Add comments instantly</li>
+        <li>🗑️ Remove unwanted comments</li>
+        <li>⚡ Real-time updates</li>
+        <li>💾 Simple & easy to use</li>
+        <li>🎨 Beautiful responsive design</li>
+        <li>🔒 Clean comment management</li>
+      </ul>
+    </section>
+
+    <!-- Comments Display Section -->
+    <section class="comments-section">
+      <h3 class="comments-title">All Comments</h3>
+      <!-- Comments container - dynamically populated by JavaScript -->
+      <div id="comments" class="comments-container">
+        <!-- Comments will be added here dynamically -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>© 2026 JAVASCRIPT | CommentBox</p>
+  </footer>
+
+  <script src="js.js"></script>
+
+</body>
+
+</html>
